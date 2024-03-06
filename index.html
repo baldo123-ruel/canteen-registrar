@@ -159,7 +159,7 @@
         if (marker) {
           marker.setMap(null);
         }
-
+       var markerIconSize = new google.maps.Size(90, 90); 
         // Create a new marker at the clicked location
        marker = new google.maps.Marker({
           position: { lat: latitude, lng: longitude },
